@@ -1,3 +1,5 @@
+Par David Tremblay
+
 # ProjetSession
 
 Informations sur Angular :
