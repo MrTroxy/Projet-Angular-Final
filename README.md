@@ -1,27 +1,44 @@
 # ProjetSession
 
+Informations sur Angular :
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.0.2.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
 ## Build
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+-----------------------------------------------------
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Informations sur le projet :
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Besoin du client : 
 
-## Further help
+- Le site doit faire des appels à 3 API différents.
+- La première API permet de chercher les bateaux selon une partie ou le nom du bateau entrée, elle renvois entre autres la RÉFÉRENCE.
+- La deuxième API va permettre de chercher les informations complète sur le bateau avec la référence obtenue avec la première API.
+- La troisième API permet de rechercher les voiles et leur prix selon les mesures du bateau trouvés avec la deuxième API.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Prérequis :
+
+- Angular version 13.0.2.
+- Node.Js
+
+
+Bon points :
+
+- L'interface du site web est assez belle
+- Facile à utiliser et user friendly
+- Les 3 API sont appelées
+
+
+Difficultés rencontrées :
+
+- J'ai eu de la difficulté à faire des recherches avec la 3e API et à récupérer ses données.
+- J'ai aussi eu de la difficultée pour afficher les voiles, J'ai donc été obligé de faire 23 div et d'aller chercher les positions des tableaux manuellement.
